@@ -43,16 +43,6 @@ benchmark/
 diagram/
   engineer-004-architecture.png   reference architecture (raster)
   engineer-004-architecture.svg   reference architecture (vector source)
-  gen_arch.py                     regenerates the diagram
-```
-
-## Regenerate the architecture diagram
-
-```bash
-cd diagram
-pip install cairosvg
-python3 gen_arch.py                                  # writes the .svg
-python3 -c "import cairosvg; cairosvg.svg2png(url='engineer-004-architecture.svg', write_to='engineer-004-architecture.png', output_width=3360)"
 ```
 
 ## What stays human
@@ -61,4 +51,4 @@ Migration go/no-go per tenant · GDPR/CCPA deletion-completeness sign-off (legal
 
 ---
 
-*Prepared by Armughan - Senior AI/ML Engineer. AI tools were used to draft and format this submission; see Section 8 of the written answer for the full usage disclosure.*
+*Prepared by Armughan - Senior AI/ML Engineer.

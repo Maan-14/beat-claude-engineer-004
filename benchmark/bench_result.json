@@ -1,0 +1,31 @@
+{
+  "baseline": {
+    "system": "BASELINE",
+    "generated": 78114,
+    "delivered": 59138,
+    "dropped": 18976,
+    "loss_pct": 24.293,
+    "p50_ms": 15500,
+    "p95_ms": 32400,
+    "p99_ms": 36000,
+    "max_ms": 36700,
+    "sla_met_pct": 9.98,
+    "steady_p99_ms": 34300,
+    "steady_sla_met_pct": 12.01
+  },
+  "proposed": {
+    "system": "PROPOSED",
+    "generated": 78114,
+    "delivered": 78114,
+    "dropped": 0,
+    "loss_pct": 0.0,
+    "p50_ms": 800,
+    "p95_ms": 6300,
+    "p99_ms": 6500,
+    "max_ms": 6600,
+    "sla_met_pct": 79.86,
+    "steady_p99_ms": 5900,
+    "steady_sla_met_pct": 97.91
+  },
+  "recovery_s": 7
+}

@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1680" height="2082" viewBox="0 0 1680 2082" font-family="Inter, 'DejaVu Sans', Arial, sans-serif">
+<rect x="0.0" y="0.0" width="1680.0" height="2082.0" rx="0" ry="0" fill="#ffffff"/>
+<text x="339.7" y="68" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="start"><tspan fill="#16335b">Real-Time Analytics Pipeline  </tspan><tspan fill="#2ea072">— Reference Architecture</tspan></text>
+<text x="840.0" y="102.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17" font-weight="normal" fill="#6e8ba0" text-anchor="middle">Sub-5s visibility at 50M+ events/day with zero data loss  ·  AWS · multi-tenant (500+ tenants) · SOC 2 / GDPR / CCPA</text>
+<rect x="38.0" y="126.0" width="1604.0" height="1932.0" rx="20" ry="20" fill="none" stroke="#9db6d0" stroke-width="2" stroke-dasharray="9 7"/>
+<rect x="56" y="113" width="640" height="26" rx="6" fill="#ffffff"/>
+<text x="66.0" y="131.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="14" font-weight="bold" fill="#16335b" text-anchor="start">Your AWS account — multi-tenant VPC  ·  per-customer data isolation  ·  SDK contract unchanged</text>
+<rect x="56.0" y="166.0" width="1568.0" height="224.0" rx="16" ry="16" fill="#f2f7fc" stroke="#dbe8f6" stroke-width="1.5"/>
+<text x="86.0" y="204.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="bold" fill="#16335b" text-anchor="start">Layer 1 · Collection</text>
+<text x="86.0" y="226.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="15" font-weight="normal" fill="#6e8ba0" text-anchor="start">keep the SDK's exact endpoint — no breaking change</text>
+<rect x="89.0" y="240.0" width="347.0" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="86.0" y="236.0" width="347.0" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="106.0" y="254.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><path d="M 124.0 266.0 l -8 10.0 l 8 10.0 M 132.0 266.0 l 8 10.0 l -8 10.0" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="106.0" y="328.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">JS SDK</text>
+<text x="106.0" y="348.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">untouched contract</text>
+<text x="106.0" y="364.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">same endpoint</text>
+<path d="M 445.0 305.0 l 16 0 m -6 -6 l 6 6 l -6 6" stroke="#16335b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="476.0" y="240.0" width="347.0" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="473.0" y="236.0" width="347.0" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="493.0" y="254.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><path d="M 505.0 281.0 a 6 6 0 0 1 1 -12 a 8 8 0 0 1 15 -1 a 6 6 0 0 1 1 13 z" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="493.0" y="328.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">CloudFront</text>
+<text x="493.0" y="348.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">TLS · global edge</text>
+<text x="493.0" y="364.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">DDoS shield</text>
+<path d="M 832.0 305.0 l 16 0 m -6 -6 l 6 6 l -6 6" stroke="#16335b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="863.0" y="240.0" width="347.0" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="860.0" y="236.0" width="347.0" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="880.0" y="254.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><path d="M 892.0 276.0 l 8 0 M 902.0 276.0 l 8 -7 M 902.0 276.0 l 8 7 M 900.0 276.0 l 2 0" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="911.0" cy="269.0" r="2.2" fill="#ffffff"/><circle cx="911.0" cy="283.0" r="2.2" fill="#ffffff"/></g>
+<text x="880.0" y="328.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">ALB</text>
+<text x="880.0" y="348.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">routing</text>
+<text x="880.0" y="364.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">health checks</text>
+<path d="M 1219.0 305.0 l 16 0 m -6 -6 l 6 6 l -6 6" stroke="#16335b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1250.0" y="240.0" width="347.0" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="1247.0" y="236.0" width="347.0" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="1267.0" y="254.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><rect x="1279.0" y="268.0" width="20" height="7" rx="2" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="1279.0" y="277.0" width="20" height="7" rx="2" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="1283.0" cy="271.5" r="1.3" fill="#ffffff"/><circle cx="1283.0" cy="280.5" r="1.3" fill="#ffffff"/></g>
+<text x="1267.0" y="328.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Collector · Fargate</text>
+<text x="1267.0" y="348.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">validate · tag tenant_id</text>
+<text x="1267.0" y="364.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">ack after durable write</text>
+<rect x="56.0" y="412.0" width="1568.0" height="224.0" rx="16" ry="16" fill="#f2f7fc" stroke="#dbe8f6" stroke-width="1.5"/>
+<text x="86.0" y="450.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="bold" fill="#16335b" text-anchor="start">Layer 2 · Durable Buffer &amp; Ingest Safety</text>
+<text x="86.0" y="472.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="15" font-weight="normal" fill="#6e8ba0" text-anchor="start">the core fix — decouple ingest from processing so spikes never drop data</text>
+<rect x="89.0" y="486.0" width="357.5" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="86.0" y="482.0" width="357.5" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="106.0" y="500.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><path d="M 118.0 517.0 q 4 -5 8 0 t 8 0 M 118.0 522.0 q 4 -5 8 0 t 8 0 M 118.0 527.0 q 4 -5 8 0 t 8 0" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="106.0" y="574.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Kinesis Data Streams</text>
+<text x="106.0" y="594.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">on-demand · 24h–7d</text>
+<text x="106.0" y="610.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">retention · replay</text>
+<rect x="472.5" y="486.0" width="357.5" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="469.5" y="482.0" width="357.5" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="489.5" y="500.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><path d="M 501.5 516.0 l 10.0 -4 l 10.0 4 l -10.0 4 z" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 501.5 522.0 l 10.0 4 l 10.0 -4 M 501.5 527.0 l 10.0 4 l 10.0 -4" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="489.5" y="574.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">SQS Spillover</text>
+<text x="489.5" y="594.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">on throttle</text>
+<text x="489.5" y="610.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">→ zero drop</text>
+<rect x="856.0" y="486.0" width="357.5" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="853.0" y="482.0" width="357.5" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="873.0" y="500.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><circle cx="890.0" cy="522.0" r="4" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="900.0" cy="522.0" r="4" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 893.0 522.0 l 4 0" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="873.0" y="574.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Idempotency</text>
+<text x="873.0" y="594.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">event_id dedup</text>
+<text x="873.0" y="610.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">at-least-once</text>
+<rect x="1239.5" y="486.0" width="357.5" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="1236.5" y="482.0" width="357.5" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="1256.5" y="500.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><path d="M 1278.5 513.0 l 10.0 16 h -20 z" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 1278.5 519.0 l 0 5" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="1278.5" cy="528.0" r="1.3" fill="#ffffff"/></g>
+<text x="1256.5" y="574.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Dead-Letter Queue</text>
+<text x="1256.5" y="594.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">poison records</text>
+<text x="1256.5" y="610.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">quarantined</text>
+<rect x="56.0" y="658.0" width="1568.0" height="224.0" rx="16" ry="16" fill="#f1faf5" stroke="#d4eee1" stroke-width="1.5"/>
+<text x="86.0" y="696.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="bold" fill="#2ea072" text-anchor="start">Layer 3 · Stream Processing · Managed Flink</text>
+<text x="86.0" y="718.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="15" font-weight="normal" fill="#6e8ba0" text-anchor="start">stateful, event-time processing handles late / out-of-order events</text>
+<rect x="89.0" y="732.0" width="280.8" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="86.0" y="728.0" width="280.8" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="106.0" y="746.0" width="44.0" height="44.0" rx="11" ry="11" fill="#2ea072"/>
+<g><circle cx="128.0" cy="768.0" r="10.0" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 128.0 763.0 l 0 5 l 4 3" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<circle cx="144.0" cy="740" r="11" fill="#16335b"/>
+<text x="144.0" y="744.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+<text x="106.0" y="820.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Sessionization</text>
+<text x="106.0" y="840.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">event-time windows</text>
+<text x="106.0" y="856.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">+ watermarks</text>
+<rect x="395.8" y="732.0" width="280.8" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="392.8" y="728.0" width="280.8" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="412.8" y="746.0" width="44.0" height="44.0" rx="11" ry="11" fill="#2ea072"/>
+<g><circle cx="429.8" cy="768.0" r="4" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="439.8" cy="768.0" r="4" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 432.8 768.0 l 4 0" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<circle cx="450.8" cy="740" r="11" fill="#16335b"/>
+<text x="450.8" y="744.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+<text x="412.8" y="820.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Identity Stitching</text>
+<text x="412.8" y="840.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">anon_id → user_id</text>
+<text x="412.8" y="856.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">cross-device</text>
+<rect x="702.6" y="732.0" width="280.8" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="699.6" y="728.0" width="280.8" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="719.6" y="746.0" width="44.0" height="44.0" rx="11" ry="11" fill="#2ea072"/>
+<g><path d="M 734.6 775.0 l 0 -6 M 740.6 775.0 l 0 -12 M 746.6 775.0 l 0 -9" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<circle cx="757.6" cy="740" r="11" fill="#16335b"/>
+<text x="757.6" y="744.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+<text x="719.6" y="820.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Behavioral Aggregates</text>
+<text x="719.6" y="840.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">per-visitor rollups</text>
+<text x="719.6" y="856.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">real-time</text>
+<rect x="1009.4" y="732.0" width="280.8" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="1006.4" y="728.0" width="280.8" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="1026.4" y="746.0" width="44.0" height="44.0" rx="11" ry="11" fill="#2ea072"/>
+<g><path d="M 1038.4 761.0 h 20 l -6 8 v 6 l -4 3 v -9 z" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<circle cx="1064.4" cy="740" r="11" fill="#16335b"/>
+<text x="1064.4" y="744.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">4</text>
+<text x="1026.4" y="820.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Segment Compute</text>
+<text x="1026.4" y="840.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">“viewed pricing 3x”</text>
+<text x="1026.4" y="856.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">keyed state</text>
+<rect x="1316.2" y="732.0" width="280.8" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="1313.2" y="728.0" width="280.8" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="1333.2" y="746.0" width="44.0" height="44.0" rx="11" ry="11" fill="#2ea072"/>
+<g><rect x="1345.2" y="758.0" width="20" height="20" rx="2" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="1351.2" y="758.0" width="8" height="5" fill="#ffffff"/><circle cx="1355.2" cy="770.0" r="3" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<circle cx="1371.2" cy="740" r="11" fill="#16335b"/>
+<text x="1371.2" y="744.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">5</text>
+<text x="1333.2" y="820.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Checkpoints → S3</text>
+<text x="1333.2" y="840.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">effectively-once</text>
+<text x="1333.2" y="856.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">fault recovery</text>
+<rect x="56.0" y="904.0" width="1568.0" height="224.0" rx="16" ry="16" fill="#f1faf5" stroke="#d4eee1" stroke-width="1.5"/>
+<text x="86.0" y="942.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="bold" fill="#2ea072" text-anchor="start">Layer 4 · Serving &amp; Activation</text>
+<text x="86.0" y="964.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="15" font-weight="normal" fill="#6e8ba0" text-anchor="start">hot state for triggers, columnar store for dashboards</text>
+<rect x="89.0" y="978.0" width="347.0" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="86.0" y="974.0" width="347.0" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="106.0" y="992.0" width="44.0" height="44.0" rx="11" ry="11" fill="#2ea072"/>
+<g><path d="M 130.0 1005.0 l -8 11 h 6 l -2 7 l 8 -11 h -6 z" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="106.0" y="1066.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Redis</text>
+<text x="106.0" y="1086.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">visitor state</text>
+<text x="106.0" y="1102.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">&lt;10 ms reads</text>
+<path d="M 445.0 1043.0 l 16 0 m -6 -6 l 6 6 l -6 6" stroke="#2ea072" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="476.0" y="978.0" width="347.0" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="473.0" y="974.0" width="347.0" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="493.0" y="992.0" width="44.0" height="44.0" rx="11" ry="11" fill="#2ea072"/>
+<g><path d="M 505.0 1008.0 q 0 -4 10.0 -4 q 10.0 0 10.0 4 v 12 q 0 4 -10.0 4 q -10.0 0 -10.0 -4 z" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 505.0 1008.0 q 0 4 10.0 4 q 10.0 0 10.0 -4 M 505.0 1014.0 q 0 4 10.0 4 q 10.0 0 10.0 -4" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="493.0" y="1066.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">DynamoDB</text>
+<text x="493.0" y="1086.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">per-tenant rollups</text>
+<text x="493.0" y="1102.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">TTL</text>
+<path d="M 832.0 1043.0 l 16 0 m -6 -6 l 6 6 l -6 6" stroke="#2ea072" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="863.0" y="978.0" width="347.0" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="860.0" y="974.0" width="347.0" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="880.0" y="992.0" width="44.0" height="44.0" rx="11" ry="11" fill="#2ea072"/>
+<g><path d="M 892.0 1008.0 q 0 -4 10.0 -4 q 10.0 0 10.0 4 v 12 q 0 4 -10.0 4 q -10.0 0 -10.0 -4 z" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 892.0 1008.0 q 0 4 10.0 4 q 10.0 0 10.0 -4 M 892.0 1014.0 q 0 4 10.0 4 q 10.0 0 10.0 -4" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="880.0" y="1066.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">ClickHouse</text>
+<text x="880.0" y="1086.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">real-time OLAP</text>
+<text x="880.0" y="1102.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">dashboards</text>
+<path d="M 1219.0 1043.0 l 16 0 m -6 -6 l 6 6 l -6 6" stroke="#2ea072" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1250.0" y="978.0" width="347.0" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="1247.0" y="974.0" width="347.0" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="1267.0" y="992.0" width="44.0" height="44.0" rx="11" ry="11" fill="#2ea072"/>
+<g><circle cx="1289.0" cy="1014.0" r="10.0" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="1289.0" cy="1014.0" r="3" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="1267.0" y="1066.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Personalization Engine</text>
+<text x="1267.0" y="1086.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">trigger on</text>
+<text x="1267.0" y="1102.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">recent behavior</text>
+<rect x="56.0" y="1150.0" width="1568.0" height="86.0" rx="14" ry="14" fill="#f1faf5" stroke="#d4eee1" stroke-width="1.5"/>
+<rect x="86.0" y="1173.0" width="40.0" height="40.0" rx="10" ry="10" fill="#2ea072"/>
+<g><circle cx="106.0" cy="1189.0" r="4" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 99.0 1201.0 a 7 6 0 0 1 14 0" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="148.0" y="1184.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="20" font-weight="bold" fill="#16335b" text-anchor="start">Stays human — approvals the pipeline must not automate</text>
+<text x="148.0" y="1212.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="14.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">Migration go/no-go per tenant   ·   GDPR deletion-completeness sign-off (legal)   ·   fresh-identity confidence check before personalizing</text>
+<rect x="56.0" y="1258.0" width="1568.0" height="224.0" rx="16" ry="16" fill="#f2f7fc" stroke="#dbe8f6" stroke-width="1.5"/>
+<text x="86.0" y="1296.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="bold" fill="#16335b" text-anchor="start">Layer 5 · Data Lake &amp; Warehouse Exports</text>
+<text x="86.0" y="1318.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="15" font-weight="normal" fill="#6e8ba0" text-anchor="start">S3 is the immutable source of truth — replay, backfill, validate</text>
+<rect x="89.0" y="1332.0" width="347.0" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="86.0" y="1328.0" width="347.0" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="106.0" y="1346.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><rect x="118.0" y="1358.0" width="20" height="20" rx="2" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><rect x="124.0" y="1358.0" width="8" height="5" fill="#ffffff"/><circle cx="128.0" cy="1370.0" r="3" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="106.0" y="1420.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Firehose → S3</text>
+<text x="106.0" y="1440.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">Parquet · source of truth</text>
+<text x="106.0" y="1456.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">tenant/date partitions</text>
+<path d="M 445.0 1397.0 l 16 0 m -6 -6 l 6 6 l -6 6" stroke="#16335b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="476.0" y="1332.0" width="347.0" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="473.0" y="1328.0" width="347.0" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="493.0" y="1346.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><path d="M 515.0 1360.0 l 0 16 M 508.0 1364.0 l 14 8 M 508.0 1372.0 l 14 -8" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="493.0" y="1420.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Snowflake</text>
+<text x="493.0" y="1440.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">Snowpipe from S3</text>
+<text x="493.0" y="1456.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">per-tenant</text>
+<path d="M 832.0 1397.0 l 16 0 m -6 -6 l 6 6 l -6 6" stroke="#16335b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="863.0" y="1332.0" width="347.0" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="860.0" y="1328.0" width="347.0" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="880.0" y="1346.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><path d="M 892.0 1362.0 q 0 -4 10.0 -4 q 10.0 0 10.0 4 v 12 q 0 4 -10.0 4 q -10.0 0 -10.0 -4 z" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 892.0 1362.0 q 0 4 10.0 4 q 10.0 0 10.0 -4 M 892.0 1368.0 q 0 4 10.0 4 q 10.0 0 10.0 -4" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="880.0" y="1420.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">BigQuery</text>
+<text x="880.0" y="1440.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">Storage Write API</text>
+<text x="880.0" y="1456.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">streaming export</text>
+<path d="M 1219.0 1397.0 l 16 0 m -6 -6 l 6 6 l -6 6" stroke="#16335b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1250.0" y="1332.0" width="347.0" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="1247.0" y="1328.0" width="347.0" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="1267.0" y="1346.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><circle cx="1287.0" cy="1366.0" r="6" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 1292.0 1371.0 l 5 5" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="1267.0" y="1420.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Athena / Replay</text>
+<text x="1267.0" y="1440.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">reprocess · backfill</text>
+<text x="1267.0" y="1456.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">validation</text>
+<rect x="56.0" y="1504.0" width="1568.0" height="86.0" rx="14" ry="14" fill="#fdf6e1" stroke="#f0e3b6" stroke-width="1.5"/>
+<rect x="86.0" y="1527.0" width="40.0" height="40.0" rx="10" ry="10" fill="#e0a53a"/>
+<g><rect x="99.0" y="1546.0" width="14" height="11" rx="2" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 102.0 1546.0 v -3 a 4 4 0 0 1 8 0 v 3" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="148.0" y="1538.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="20" font-weight="bold" fill="#16335b" text-anchor="start">Compliance &amp; Governance · applies to all layers</text>
+<text x="148.0" y="1566.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="14.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">GDPR/CCPA crypto-shredding (delete the key → data unreadable)   ·   per-tenant isolation   ·   consent flags on every event   ·   SOC 2   ·   retention &amp; deletion SLAs</text>
+<rect x="56.0" y="1602.0" width="1568.0" height="86.0" rx="14" ry="14" fill="#f2f7fc" stroke="#dbe8f6" stroke-width="1.5"/>
+<rect x="86.0" y="1625.0" width="40.0" height="40.0" rx="10" ry="10" fill="#337fd0"/>
+<g><path d="M 97.0 1645.0 h 4 l 3 -7 l 4 14 l 3 -7 h 5" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="148.0" y="1636.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="20" font-weight="bold" fill="#16335b" text-anchor="start">Observability &amp; Cost · applies to all layers</text>
+<text x="148.0" y="1664.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="14.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">End-to-end &lt;5s latency SLO   ·   synthetic canary events   ·   old-vs-new count reconciliation   ·   per-tenant cost dashboards   ·   $50K/mo ceiling</text>
+<rect x="56.0" y="1710.0" width="1568.0" height="224.0" rx="16" ry="16" fill="#f2f7fc" stroke="#dbe8f6" stroke-width="1.5"/>
+<text x="86.0" y="1748.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="25" font-weight="bold" fill="#16335b" text-anchor="start">Layer 6 · Migration &amp; Delivery</text>
+<text x="86.0" y="1770.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="15" font-weight="normal" fill="#6e8ba0" text-anchor="start">strangler fig — migrate without breaking integrations, roll back instantly</text>
+<rect x="89.0" y="1784.0" width="269.6" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="86.0" y="1780.0" width="269.6" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="106.0" y="1798.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><path d="M 118.0 1820.0 l 8 0 M 128.0 1820.0 l 8 -7 M 128.0 1820.0 l 8 7 M 126.0 1820.0 l 2 0" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="137.0" cy="1813.0" r="2.2" fill="#ffffff"/><circle cx="137.0" cy="1827.0" r="2.2" fill="#ffffff"/></g>
+<text x="106.0" y="1872.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Fan-out</text>
+<text x="106.0" y="1892.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">tee live traffic</text>
+<text x="106.0" y="1908.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">no SDK change</text>
+<path d="M 367.6 1849.0 l 16 0 m -6 -6 l 6 6 l -6 6" stroke="#16335b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="398.6" y="1784.0" width="269.6" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="395.6" y="1780.0" width="269.6" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="415.6" y="1798.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><path d="M 437.6 1812.0 l 10.0 4 l -10.0 4 l -10.0 -4 z" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 427.6 1822.0 l 10.0 4 l 10.0 -4" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="415.6" y="1872.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Shadow</text>
+<text x="415.6" y="1892.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">reconcile vs old</text>
+<text x="415.6" y="1908.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">new loses less</text>
+<path d="M 677.2 1849.0 l 16 0 m -6 -6 l 6 6 l -6 6" stroke="#16335b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="708.2" y="1784.0" width="269.6" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="705.2" y="1780.0" width="269.6" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="725.2" y="1798.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><path d="M 741.2 1812.0 v 16 M 741.2 1812.0 h 11 l -3 4 l 3 4 h -11" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="725.2" y="1872.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Tenant Canary</text>
+<text x="725.2" y="1892.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">cut over per tenant</text>
+<text x="725.2" y="1908.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">watch SLA</text>
+<path d="M 986.8 1849.0 l 16 0 m -6 -6 l 6 6 l -6 6" stroke="#16335b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1017.8" y="1784.0" width="269.6" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="1014.8" y="1780.0" width="269.6" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="1034.8" y="1798.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><path d="M 1049.8000000000002 1817.0 a 7 7 0 1 1 -1 7" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 1049.8000000000002 1813.0 l 0 5 l 5 0" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="1034.8" y="1872.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">Instant Rollback</text>
+<text x="1034.8" y="1892.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">routing flag</text>
+<text x="1034.8" y="1908.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">old kept warm</text>
+<path d="M 1296.4 1849.0 l 16 0 m -6 -6 l 6 6 l -6 6" stroke="#16335b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1327.4" y="1784.0" width="269.6" height="138.0" rx="12" ry="12" fill="#0b2545" opacity="0.06"/>
+<rect x="1324.4" y="1780.0" width="269.6" height="138.0" rx="12" ry="12" fill="#ffffff" stroke="#d9e4f0" stroke-width="1.4"/>
+<rect x="1344.4" y="1798.0" width="44.0" height="44.0" rx="11" ry="11" fill="#337fd0"/>
+<g><circle cx="1366.4" cy="1820.0" r="4" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M 1366.4 1811.0 v 3 M 1366.4 1826.0 v 3 M 1357.4 1820.0 h 3 M 1372.4 1820.0 h 3 M 1360.4 1814.0 l 2 2 M 1370.4 1824.0 l 2 2 M 1372.4 1814.0 l -2 2 M 1362.4 1824.0 l -2 2" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="1344.4" y="1872.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="17.5" font-weight="bold" fill="#16335b" text-anchor="start">IaC</text>
+<text x="1344.4" y="1892.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">Terraform</text>
+<text x="1344.4" y="1908.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">reproducible</text>
+<rect x="56.0" y="1956.0" width="1568.0" height="86.0" rx="14" ry="14" fill="#f1faf5" stroke="#d4eee1" stroke-width="1.5"/>
+<rect x="86.0" y="1979.0" width="40.0" height="40.0" rx="10" ry="10" fill="#2ea072"/>
+<g><path d="M 108.0 1990.0 l -8 11 h 6 l -2 7 l 8 -11 h -6 z" stroke="#ffffff" stroke-width="2.1" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="148.0" y="1990.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="20" font-weight="bold" fill="#16335b" text-anchor="start">Proven on a spike benchmark  (pipeline_bench.py, seed=42)</text>
+<text x="148.0" y="2018.0" font-family="Inter, 'DejaVu Sans', Arial, sans-serif" font-size="14.5" font-weight="normal" fill="#6e8ba0" text-anchor="start">Identical 10x / 5s burst — Baseline: 24.3% loss @ 15.5s p50   ·   Proposed: 0% loss, &lt;5s at 97.9% steady-state, ~6.6s peak, recovers ~7s</text>
+</svg>

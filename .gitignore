@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (diagram tooling, if used locally)
+node_modules/
+package-lock.json
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local conversions
+*.tmp
+~$*
+beat-claude-engineer-004/diagram/gen_arch.py
+beat-claude-engineer-004/PUSH_INSTRUCTIONS.md
